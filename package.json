@@ -1,0 +1,45 @@
+{
+  "name": "iran-sheba",
+  "version": "1.0.0",
+  "description": "Iranian Bank Sheba validator & calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rghorbani/iran-sheba"
+  },
+  "keyword": [
+    "iran",
+    "bank",
+    "sheba",
+    "paya",
+    "IBAN",
+    "ISO-13616",
+    "transfer"
+  ],
+  "author": {
+    "name": "Reza Ghorbani",
+    "email": "r.ghorbani.f@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rghorbani/iran-sheba/issues"
+  },
+  "homepage": "https://github.com/rghorbani/iran-sheba",
+  "_npmUser": {
+    "name": "rghorbani",
+    "email": "r.ghorbani.f@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "rghorbani",
+      "email": "r.ghorbani.f@gmail.com"
+    }
+  ],
+  "devDependencies": {
+    "babel-eslint": "~6.1.2",
+    "eslint": "~3.1.1"
+  }
+}
