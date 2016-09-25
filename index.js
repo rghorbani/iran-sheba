@@ -1,91 +1,138 @@
 
 
 var banks = [{
+  nickname: 'eghtesan-novin',
   name: 'Eghtesad Novin Bank',
   persianName: 'بانک اقتصاد نوین',
-  code: '055'
+  code: '055',
+  accountNumberAvailable: false
 }, {
+  nickname: 'parsian',
   name: 'Parsian Bank',
   persianName: 'بانک پارسیان',
-  code: '054'
+  code: '054',
+  accountNumberAvailable: false
 }, {
+  nickname: 'pasargad',
   name: 'Pasargad Bank',
   persianName: 'بانک پاسارگاد',
-  code: '057'
+  code: '057',
+  accountNumberAvailable: false
 }, {
+  nickname: 'post',
   name: 'Post Bank',
   persianName: 'پست بانک ایران',
-  code: '021'
+  code: '021',
+  accountNumberAvailable: false
 }, {
+  nickname: 'tejarat',
   name: 'Tejarat Bank',
   persianName: 'بانک تجارت',
-  code: '018'
+  code: '018',
+  accountNumberAvailable: false
 }, {
+  nickname: 'tosee',
   name: 'Tosee Bank',
   persianName: 'موسسه اعتباری توسعه',
-  code: '051'
+  code: '051',
+  accountNumberAvailable: false
 }, {
+  nickname: 'tosee-saderat',
   name: 'Tose Saderat Bank',
   persianName: 'بانک توسعه صادرات',
-  code: '020'
+  code: '020',
+  accountNumberAvailable: false
 }, {
+  nickname: 'refah',
   name: 'Refah Bank',
   persianName: 'بانک رفاه',
-  code: '013'
+  code: '013',
+  accountNumberAvailable: false
 }, {
+  nickname: 'saman',
   name: 'Saman Bank',
   persianName: 'بانک سامان',
-  code: '056'
+  code: '056',
+  accountNumberAvailable: false
 }, {
+  nickname: 'sepah',
   name: 'Sepah Bank',
   persianName: 'بانک سپه',
-  code: '015'
+  code: '015',
+  accountNumberAvailable: false
 }, {
+  nickname: 'sarmayeh',
   name: 'Sarmayeh Bank',
   persianName: 'بانک سرمایه',
-  code: '058'
+  code: '058',
+  accountNumberAvailable: false
 }, {
+  nickname: 'saderat',
   name: 'Saderat Bank',
   persianName: 'بانک صادرات ایران',
-  code: '019'
+  code: '019',
+  accountNumberAvailable: false
 }, {
+  nickname: 'sanat-o-madan',
   name: 'Sanat O Madan Bank',
   persianName: 'بانک صنعت و معدن',
-  code: '011'
+  code: '011',
+  accountNumberAvailable: false
 }, {
-  name: 'Karafarin',
+  nickname: 'karafarin',
+  name: 'Karafarin Bank',
   persianName: 'بانک کارآفرین',
-  code: '053'
+  code: '053',
+  accountNumberAvailable: false
 }, {
+  nickname: 'keshavarzi',
   name: 'Keshavarzi',
   persianName: 'بانک کشاورزی',
-  code: '016'
+  code: '016',
+  accountNumberAvailable: false
 }, {
+  nickname: 'central-bank',
   name: 'Central Bank of Iran',
   persianName: 'بانک مرکزی جمهوری اسلامی ایران',
-  code: '010'
+  code: '010',
+  accountNumberAvailable: false
 }, {
+  nickname: 'maskan',
   name: 'Maskan Bank',
   persianName: 'بانک مسکن',
-  code: '014'
+  code: '014',
+  accountNumberAvailable: false
 }, {
+  nickname: 'mellat',
   name: 'Mellat Bank',
   persianName: 'بانک ملت',
-  code: '012'
+  code: '012',
+  accountNumberAvailable: false
 }, {
+  nickname: 'melli',
   name: 'Melli',
   persianName: 'بانک ملی ایران',
-  code: '017'
+  code: '017',
+  accountNumberAvailable: false
 }];
 var banksHash = {};
+var banksOutput = [];
 for (var i = 0; i < banks.length; i++) {
   banksHash[banks[i].code] = banks[i];
+
+  banksOutput.push({
+    nickname: banks[i].nickname,
+    name: banks[i].name,
+    persianName: banks[i].persianName,
+    code: banks[i].code,
+    accountNumberAvailable: banks[i].accountNumberAvailable,
+  });
 }
 
 var pattern = /IR[0-9]{24}/
 var pattern_code = /IR[0-9]{2}([0-9]{3})[0-9]{19}/;
 
-module.exports.banks = banks;
+module.exports.banks = banksOutput;
 
 function iso7064Mod97_10(iban) {
   var remainder = iban,

@@ -1,7 +1,7 @@
 {
   "name": "iran-sheba",
-  "version": "1.0.0",
-  "description": "Iranian Bank Sheba validator & calculator",
+  "version": "1.0.1",
+  "description": "Iranian Bank Sheba validator and calculator",
   "main": "index.js",
   "scripts": {
     "test": "eslint ."
