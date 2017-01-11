@@ -1,6 +1,6 @@
 {
   "name": "iran-sheba",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Iranian Bank Sheba validator and calculator",
   "main": "index.js",
   "scripts": {
