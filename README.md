@@ -20,7 +20,7 @@ console.log(Sheba.recognize('IR012345678901234567890123'));
 # To Do:
 
 - extract account number
-- bank following banks: ansar, dey, ghavamin, mehr iran, resalat, sina, toose taavon
+- add following banks: resalat, sina
 
 
 # Suggestions?

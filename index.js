@@ -21,7 +21,7 @@ var banks = [{
 }, {
   nickname: 'refah',
   name: 'Refah Bank',
-  persianName: 'بانک رفاه',
+  persianName: 'بانک رفاه کارگران',
   code: '013',
   accountNumberAvailable: false
 }, {
@@ -73,10 +73,22 @@ var banks = [{
   code: '021',
   accountNumberAvailable: false
 }, {
+  nickname: 'toose-taavon',
+  name: 'Tosee Taavon Bank',
+  persianName: 'بانک توسعه تعاون',
+  code: '022',
+  accountNumberAvailable: false
+}, {
   nickname: 'tosee',
   name: 'Tosee Bank',
   persianName: 'موسسه اعتباری توسعه',
   code: '051',
+  accountNumberAvailable: false
+}, {
+  nickname: 'ghavamin',
+  name: 'Ghavamin Bank',
+  persianName: 'بانک قوامین',
+  code: '052',
   accountNumberAvailable: false
 }, {
   nickname: 'karafarin',
@@ -99,7 +111,7 @@ var banks = [{
     };
   }
 }, {
-  nickname: 'eghtesan-novin',
+  nickname: 'eghtesad-novin',
   name: 'Eghtesad Novin Bank',
   persianName: 'بانک اقتصاد نوین',
   code: '055',
@@ -135,6 +147,18 @@ var banks = [{
   code: '058',
   accountNumberAvailable: false
 }, {
+  nickname: 'sina',
+  name: 'Sina Bank',
+  persianName: 'بانک سینا',
+  code: '059',
+  accountNumberAvailable: false
+}, {
+  nickname: 'mehr-iran',
+  name: 'Mehr Iran Bank',
+  persianName: 'بانک مهر ایران',
+  code: '060',
+  accountNumberAvailable: false
+}, {
   nickname: 'shahr',
   name: 'City Bank',
   persianName: 'بانک شهر',
@@ -152,15 +176,51 @@ var banks = [{
   }
 }, {
   nickname: 'ayandeh',
-  name: 'Ayandeh',
+  name: 'Ayandeh Bank',
   persianName: 'بانک آینده',
   code: '062',
   accountNumberAvailable: false
 }, {
+  nickname: 'ansar',
+  name: 'Ansar Bank',
+  persianName: 'بانک انصار',
+  code: '063',
+  accountNumberAvailable: false
+}, {
   nickname: 'gardeshgari',
-  name: 'Gardeshgari',
+  name: 'Gardeshgari Bank',
   persianName: 'بانک گردشگری',
   code: '064',
+  accountNumberAvailable: false
+}, {
+  nickname: 'hekmat-iranian',
+  name: 'Hekmat Iranian Bank',
+  persianName: 'بانک حکمت ایرانیان',
+  code: '065',
+  accountNumberAvailable: false
+}, {
+  nickname: 'dey',
+  name: 'Dey Bank',
+  persianName: 'بانک دی',
+  code: '066',
+  accountNumberAvailable: false
+}, {
+  nickname: 'iran-zamin',
+  name: 'Iran Zamin Bank',
+  persianName: 'بانک ایران زمین',
+  code: '069',
+  accountNumberAvailable: false
+}, {
+  nickname: 'mehr-iran',
+  name: 'Mehr Iran Bank',
+  persianName: 'بانک مهر ایران',
+  code: '090',
+  accountNumberAvailable: false
+}, {
+  nickname: 'iran-venezuela',
+  name: 'Iran and Venezuela Bank',
+  persianName: 'بانک ایران و ونزوئلا',
+  code: '095',
   accountNumberAvailable: false
 }];
 var banksHash = {};
