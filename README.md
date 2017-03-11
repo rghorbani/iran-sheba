@@ -20,7 +20,7 @@ console.log(Sheba.recognize('IR012345678901234567890123'));
 # To Do:
 
 - extract account number
-- add following banks: resalat, sina
+- add following banks: sina
 
 
 # Suggestions?
