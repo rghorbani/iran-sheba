@@ -211,6 +211,12 @@ var banks = [{
   code: '069',
   accountNumberAvailable: false
 }, {
+  nickname: 'resalat',
+  name: 'Resalat Bank',
+  persianName: 'بانک قرض الحسنه رسالت',
+  code: '070',
+  accountNumberAvailable: false
+}, {
   nickname: 'mehr-iran',
   name: 'Mehr Iran Bank',
   persianName: 'بانک مهر ایران',
