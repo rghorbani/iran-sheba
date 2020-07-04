@@ -1,3 +1,4 @@
 module.exports = {
-  extends: 'kajoo/vanilla',
-};
+  root: true,
+  extends: ['@react-native-community', 'prettier'],
+}
