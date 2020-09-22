@@ -260,6 +260,13 @@ var banks = [
     accountNumberAvailable: false,
   },
   {
+    nickname: 'mehr-eqtesad',
+    name: 'Mehr Eqtesad Bank',
+        persianName: 'بانک مهر اقتصاد',
+    code: '079',
+    accountNumberAvailable: false,
+  },
+  {
     nickname: 'mehr-iran',
     name: 'Mehr Iran Bank',
     persianName: 'بانک مهر ایران',
